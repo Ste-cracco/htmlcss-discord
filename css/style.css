@@ -27,6 +27,16 @@ p {
     font-size: 18px;
 }
 
+footer {
+    background-color: #23272A;
+}
+
+/* ID */
+#riga_inversa {
+    flex-direction: row-reverse;
+}
+
+
 /* HEADER */
 
 header {
@@ -187,65 +197,65 @@ h1 {
     margin-top: 25px;
 }
 
-/* ID */
-#riga_inversa {
-    flex-direction: row-reverse;
+
+/* FOOTER */
+
+.primo_container {
+    max-width: 33%;
+    color: white;
 }
 
-/* Rettangoli Main */
-
-
-
-
-
-
-
-/* Rettangoli Footer */
-.rettangolo_rosso {
-    flex-grow: 2;
-    height: 500px;
-    background-color: red;
+footer h2 {
+    color: #7289D9;
+    font-size: 38px;
 }
 
-.rettangolo_verde_acqua {
-    flex-grow: 1;
-    height: 500px;
-    background-color: aquamarine;
-    border: 1px solid white;
-}
-
-.logo_footer{
-    background-color: salmon;
+.bandiera {
     height: 25px;
+    width: 35px;
+    vertical-align: sub;
+    margin-top: 15px;
+}
+
+.loghi_social{
+    height: 20px;
+    width: 20px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+footer h6 {
+    font-size: 18px;
+    color: #7289D9;
+    margin-bottom: 15px;
+}
+
+footer li {
+    padding: 10px 0;
+}
+
+.altri_container {
+    flex-grow: 1;
+    color: white;
+    padding-top: 50px;
+}
+
+.logo_footer {
     align-self: center;
     padding-bottom: 0;
 }
 
 .bottone_footer{
-    background-color: salmon;
+    background-color: #7289D9;
+    color: white;
     height: 25px;
     align-self: center;
 }
 
 .rettangolo_footer {
     height: 50px;
-    background-color: greenyellow;
     justify-content: space-between;
     align-content: center;
 }
 
-
-/* Sfondi Section */
   
-
-.background_footer {
-    background-color: #222629;
-    padding-top: 5px;
-    padding-bottom: 20px;
-}
-
-.background_footer_2 {
-    background-color: #222629;
-    padding-top: 20px;
-    padding-bottom: 0;
-}
