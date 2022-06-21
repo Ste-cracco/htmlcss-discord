@@ -18,16 +18,20 @@ ol, ul {
     display: flex;
 }
 
+h2 {
+    font-size: 50px;
+    padding-top: 35px;
+}
+
+p {
+    font-size: 18px;
+}
+
 /* HEADER */
+
 header {
     background-color: #255EE9;
     padding: 10px 0px;
-}
-
-.background_jumbo {
-    background-image: url("../img/jumbo.png");
-    background-position: top;
-    background-size: cover;
 } 
 
 section {
@@ -64,6 +68,12 @@ ul{
 }
 
 /* SEZIONE 1 */
+
+.background_jumbo {
+    background-image: url("../img/jumbo.png");
+    background-position: top;
+    background-size: cover;
+}
 
 .bottone_main{
     max-height: 30px;
@@ -105,6 +115,45 @@ h1 {
 
 } 
 
+/* SEZIONE 2 */
+
+.background_bianco {
+    background-color: white;
+    padding-top: 99px;
+    padding-bottom: 150px;
+}
+
+.container_immagine_sezione_2 {
+    width: 60%;
+    background-image: url("../img/item1.svg");
+}
+
+.container_testo_sezione {
+    width: 40%;
+}
+
+.container_testo_sezione p {
+    padding-top: 30px;
+
+}
+
+/* SEZIONE 3 */
+
+.background_grigio_chiaro{
+    background-color: #F6F6F6;
+    padding-top: 99px;
+    padding-bottom: 150px;
+}
+
+.container_immagine_sezione_3 {
+    width: 60%;
+    background-image: url("../img/item2.svg");
+    padding-bottom: 385px;
+}
+
+
+
+
 /* ID */
 #riga_inversa {
     flex-direction: row-reverse;
@@ -113,17 +162,8 @@ h1 {
 /* Rettangoli Main */
 
 
-.rettangolo_azzurro {
-    width: 60%;
-    height: 400px;
-    background-color: cornflowerblue;
-}
 
-.rettangolo_rosa_salmone {
-    width: 40%;
-    height: 400px;
-    background-color: salmon;
-}
+
 
 .rettangolo_verde {
     height: 600px;
@@ -168,14 +208,6 @@ h1 {
 
 /* Sfondi Section */
   
-
-.background_bianco{
-    background-color: white;
-}
-
-.background_grigio_chiaro{
-    background-color: lightgrey;
-}
 
 .background_footer {
     background-color: #222629;
