@@ -151,8 +151,41 @@ h1 {
     padding-bottom: 385px;
 }
 
+/* SEZIONE 4 */
 
+.container_immagine_sezione_4 {
+    width: 60%;
+    background-image: url("../img/item3.svg");
+    padding-bottom: 430px;
+}
 
+/* SEZIONE 5 */
+
+.container_sezione_5 {
+    width: 100%;
+    text-align: center;
+}
+
+.container_sezione_5 p {
+    padding-top: 20px;
+}
+
+.container_sezione_5 h3 {
+    padding-top: 80px;
+    font-size: 28px;
+}
+
+.background_h3{
+    background-image: url("../img/stars.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bottone_azzurro {
+    background-color: cornflowerblue;
+    color: white;
+    margin-top: 25px;
+}
 
 /* ID */
 #riga_inversa {
@@ -165,11 +198,7 @@ h1 {
 
 
 
-.rettangolo_verde {
-    height: 600px;
-    width: 100%;
-    background-color: green;
-}
+
 
 /* Rettangoli Footer */
 .rettangolo_rosso {
