@@ -133,9 +133,8 @@ h1 {
     padding-bottom: 150px;
 }
 
-.container_immagine_sezione_2 {
+.container_immagine {
     width: 60%;
-    background-image: url("../img/item1.svg");
 }
 
 .container_testo_sezione {
@@ -155,19 +154,6 @@ h1 {
     padding-bottom: 150px;
 }
 
-.container_immagine_sezione_3 {
-    width: 60%;
-    background-image: url("../img/item2.svg");
-    padding-bottom: 385px;
-}
-
-/* SEZIONE 4 */
-
-.container_immagine_sezione_4 {
-    width: 60%;
-    background-image: url("../img/item3.svg");
-    padding-bottom: 430px;
-}
 
 /* SEZIONE 5 */
 
